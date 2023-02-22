@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Teads</title>
+</head>
+<body>
+  <h1>Test Teads</h1>
+  <div class="shopperBrandingContainer" id="sb-banner"></div>
+  <script>
+    window.Doveconviene = {
+      Implementation: {
+        ShopperBranding: {
+          pushYesTeadsEvent() {
+            console.log('pushYesTeadsEvent')
+          },
+          pushNoTeadsEvent() {
+            console.log('pushNoTeadsEvent')
+          },
+        }
+      }
+    }
+  </script>
+  <script type="text/javascript" class="teads" async="true" src="//a.teads.tv/page/164247/tag"></script>
+  <!-- <script type="text/javascript" class="teads" async="true" src="//a.teads.tv/page/73898/tag"></script> -->
+</body>
+</html>
